@@ -1,4 +1,4 @@
-import Layout from './Layout';
+import Component from 'react';
 import './Login.css'
 
 class Login extends React.Component {
