@@ -8,6 +8,9 @@ const Navbar = () => (
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link href="/"><a className="nav-link">Home</a></Link>
+          </li>          
+          <li className="nav-item">
+            <Link href="/services"><a className="nav-link">Services</a></Link>
           </li>
           <li className="nav-item">
             <Link href="/login"><a className="nav-link">Login</a></Link>
