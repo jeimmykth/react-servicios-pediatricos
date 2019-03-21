@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_error.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\next\\dist\\pages\\_error.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -3760,20 +3760,20 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=next%2Fdist%2Fpages%2F_error!./":
-/*!***********************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=next%2Fdist%2Fpages%2F_error ***!
-  \***********************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CDany%5CDesktop%5CJose%5Creact-servicios-pediatricos%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CDany%5CDesktop%5CJose%5Creact-servicios-pediatricos%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \**************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_error", function() {
-      var page = __webpack_require__(/*! next/dist/pages/_error */ "./node_modules/next/dist/pages/_error.js")
+      var page = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
       if(true) {
-        module.hot.accept(/*! next/dist/pages/_error */ "./node_modules/next/dist/pages/_error.js", function() {
+        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
           if(!next.router.components["/_error"]) return
-          var updatedPage = __webpack_require__(/*! next/dist/pages/_error */ "./node_modules/next/dist/pages/_error.js")
+          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
           next.router.update("/_error", updatedPage.default || updatedPage)
         })
       }
@@ -4564,6 +4564,18 @@ module.exports = (__webpack_require__(/*! dll-reference dll_55dc4e2ecf7824085104
 
 /***/ }),
 
+/***/ 3:
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CDany%5CDesktop%5CJose%5Creact-servicios-pediatricos%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \******************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CDany%5CDesktop%5CJose%5Creact-servicios-pediatricos%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CDany%5CDesktop%5CJose%5Creact-servicios-pediatricos%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./");
+
+
+/***/ }),
+
 /***/ "dll-reference dll_55dc4e2ecf7824085104":
 /*!*******************************************!*\
   !*** external "dll_55dc4e2ecf7824085104" ***!
@@ -4575,5 +4587,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=next%2Fdist%2Fpages%2F_error!./","static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=_error.js.map
