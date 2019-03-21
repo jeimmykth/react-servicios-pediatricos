@@ -1,11 +1,19 @@
-import Layout from './Layout';
+import axios from 'axios';
 import './Login.css'
 
 class Login extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
-        console.log(event.target.inputEmail.value);
-        console.log(event.target.inputPassword.value)
+        axios.post('localhost:3000/api/login', {
+            email: event.target.inputEmail.value,
+            password: event.target.inputPassword.value
+        })
+        .then(function (response) {
+            console.log(response);
+        })
+        .then(function(error) {
+            console.log(error);
+        })
     }
 
     render () {
